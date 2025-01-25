@@ -14,7 +14,7 @@ rounding_factor = 2;
 
 //Magnet options, for use on fridge or magnetic whiteboards
 
-magnet = true;
+magnet = false;
 mag_height = 1.2;
 mag_diameter = 8.5;
 
@@ -45,8 +45,8 @@ module letter(l) {
 text_height = (final_length - letter_size);
 text_centre = (final_width / 2);
 
-translate([text_height,text_centre,tile_height]) rotate([0,0,90]) letter(text);
-
+// Comment the below line to exclude the text from getting printed
+// translate([text_height,text_centre,tile_height]) rotate([0,0,90]) letter(text);
 
 
 // Make the Tile
@@ -92,7 +92,8 @@ module pyramidChildren(height){
         children(i);
  }
  
- 
+ //Comment the line below when printing the logo text
+ letter_size=0;
  icon_y_pos = ((final_length - letter_size) /2);
  icon_x_pos = (final_width /2);
  icon_resize = ((final_length * 1.25)/2);

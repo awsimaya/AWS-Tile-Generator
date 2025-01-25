@@ -5,7 +5,7 @@ import argparse
 
 PATTERN = '*64.svg'
 ICON_PATH = "icons"
-OPENSCAD_PATH = '/Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD'
+OPENSCAD_PATH = '/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD'
 
 
 # Initialize parser
