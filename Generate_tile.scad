@@ -45,7 +45,7 @@ module letter(l) {
 text_height = (final_length - letter_size);
 text_centre = (final_width / 2);
 
-// Comment the below line to exclude the text from getting printed
+// Comment the line below to exclude the text from getting printed
 // translate([text_height,text_centre,tile_height]) rotate([0,0,90]) letter(text);
 
 
