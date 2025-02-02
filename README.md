@@ -1,3 +1,14 @@
+## This is a fork, obviously 😉
+### What's different then?
+1. I have added some AWS Cloud Operations logos readily available. Check out the samples folder. 
+1. I also added 2 new AWS logo designs as well. 
+1. I removed the magnet slot that was in the original design and changed it to have a punchhole to be used in keychains.
+
+Also, I also added some comments in the _Generate_tile.scad_ file for the following changes:
+1. Remove the logo title from the design
+1. Position the logo to the center to accomodate the text removal if you choose to do so
+1. Add or remove magnet slot 
+
 # AWS-Tile-Generator
 Simple 3D Tile Generator for AWS Service Icons using OpenSCAD
 
